@@ -1,0 +1,17 @@
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+  font-weight: 600;
+}
+
+.navbar-default {
+  opacity: 0.95;
+  background-color: #fff;
+
+  .navbar-nav {
+    margin: 10.5px 10px;
+  }
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+}

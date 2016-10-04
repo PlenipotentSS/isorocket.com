@@ -1,0 +1,19 @@
+
+body > .container {
+  padding: 75px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.dark {
+  color: #585858;
+  text-shadow: none;
+
+  a,
+  a:focus,
+  a:hover {
+    color: #585858;
+    font-weight: 700;
+  }
+}

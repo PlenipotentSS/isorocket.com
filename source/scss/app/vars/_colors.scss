@@ -1,0 +1,10 @@
+//some custom colors
+a.white {
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    color: #a1a1a1;
+    text-decoration: none;
+  }
+}
