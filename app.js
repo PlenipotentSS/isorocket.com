@@ -36,7 +36,7 @@ if (process.env.NODE_ENV === "development") {
   app.listen(3000, '127.0.0.1', function() {
     console.log('listening');
   });
-} else if (process.env.NODE_ENV === "development"){
+} else if (process.env.NODE_ENV === "production"){
   app.listen(8085, '10.128.5.245', function() {
     console.log('listening in PRODUCTION');
   });
