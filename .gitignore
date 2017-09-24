@@ -15,6 +15,7 @@ Thumbs.db
 .project
 .settings
 .tmproj
+.env
 *.esproj
 *.sublime-workspace
 *.sublime-project
