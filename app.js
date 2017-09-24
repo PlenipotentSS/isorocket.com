@@ -1,6 +1,8 @@
 var path = require('path');
 var express = require('express');
 var BodyChecker = require('./BodyChecker/BodyChecker.js');
+var dotenv = require('dotenv');
+dotenv.load();
 
 var app = express();
 
@@ -30,6 +32,12 @@ app.get('/body-detect',function(req,res){
   }
 });
 
-app.listen(3000, function() {
-  console.log('listening');
-});
+if (process.env.NODE_ENV === "development") {
+  app.listen(3000, '127.0.0.1', function() {
+    console.log('listening');
+  });
+} else if (process.env.NODE_ENV === "development"){
+  app.listen(8085, '10.128.5.245', function() {
+    console.log('listening in PRODUCTION');
+  });
+}
