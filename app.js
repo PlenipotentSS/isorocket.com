@@ -37,7 +37,7 @@ if (process.env.NODE_ENV === "development") {
     console.log('listening in DEVELOPMENT');
   });
 } else if (process.env.NODE_ENV === "production"){
-  app.listen(8085, '10.128.5.245', function() {
+  app.listen(8055, '10.128.5.245', function() {
     console.log('listening in PRODUCTION');
   });
 }
