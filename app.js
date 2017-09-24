@@ -34,7 +34,7 @@ app.get('/body-detect',function(req,res){
 
 if (process.env.NODE_ENV === "development") {
   app.listen(3000, '127.0.0.1', function() {
-    console.log('listening');
+    console.log('listening in DEVELOPMENT');
   });
 } else if (process.env.NODE_ENV === "production"){
   app.listen(8085, '10.128.5.245', function() {
