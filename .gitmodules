@@ -1,0 +1,3 @@
+[submodule "BodyChecker"]
+	path = BodyChecker
+	url = https://github.com/PlenipotentSS/BodyChecker.git
